@@ -1,0 +1,8 @@
+git remote add origin https://github.com/mathjoy/TsingyouNet.gitnode_modules
+npm-debug.log
+.tmp
+.idea
+public
+compiled
+.swp
+.vscode
