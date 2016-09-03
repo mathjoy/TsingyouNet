@@ -32,6 +32,15 @@
 - Procfile to enable deployment to Heroku & Docs on Salt configurations + Deployment for Digital Ocean
 
 
+===prep mongo db:
+https://docs.mongodb.com/v3.0/tutorial/install-mongodb-on-amazon/
+
+==init node npm
+sudo yum install nodejs npm --enablerepo=epel
+
+==instance:
+ssh -i "TsingyouNet.pem" ec2-user@ec2-54-67-0-79.us-west-1.compute.amazonaws.com
+
 ## Motivation
 
 Building the SNS using best practice.

@@ -22,7 +22,7 @@ export default (app) => {
     // google auth
     // Redirect the user to Google for authentication. When complete, Google
     // will redirect the user back to the application at
-    // /auth/google/return
+    // /auth/google/return API key AIzaSyB7pQQLTZNz5zSkFYftJpXfpV4G5eVGJcc
     // Authentication with google requires an additional scope param, for more info go
     // here https://developers.google.com/identity/protocols/OpenIDConnect#scope-param
     app.get('/auth/google', passport.authenticate('google', {
