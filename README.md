@@ -45,6 +45,8 @@ data files
 sudo rm -r /var/lib/mongo
 
 ==init node npm
+https://gist.github.com/mathjoy/7968661d6199ffc4904aafcc0f3eff2d
+
 sudo yum install nodejs npm --enablerepo=epel
 
 ==instance:
