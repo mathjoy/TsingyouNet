@@ -34,6 +34,15 @@
 
 ===prep mongo db:
 https://docs.mongodb.com/v3.0/tutorial/install-mongodb-on-amazon/
+sudo service mongod start
+sudo service mongod stop
+sudo service mongod restart
+
+log files
+sudo rm -r /var/log/mongodb
+
+data files
+sudo rm -r /var/lib/mongo
 
 ==init node npm
 sudo yum install nodejs npm --enablerepo=epel
