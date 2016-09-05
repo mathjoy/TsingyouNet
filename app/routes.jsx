@@ -6,6 +6,7 @@ import Vote from 'containers/Vote';
 import About from 'containers/About';
 import LoginOrRegister from 'containers/LoginOrRegister';
 import Dashboard from 'containers/Dashboard';
+import MainInout from 'containers/MainInput'
 
 /*
  * @param {Redux Store}
@@ -41,7 +42,7 @@ export default (store) => {
       <IndexRoute component={About} />
       <Route path="login" component={LoginOrRegister} onEnter={redirectAuth} />
       <Route path="home" component={Dashboard} onEnter={requireAuth} />
-      <Route path="about" component={About} />
+      <Route path="about" component={MainInout} />
     </Route>
   );
 };

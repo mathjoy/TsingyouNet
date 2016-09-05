@@ -51,4 +51,7 @@ routesConfig(app);
  */
 app.get('*', App.default);
 
+console.log("    !!!!##### ", app.get('port'));
+
 app.listen(app.get('port'));
+

@@ -6,6 +6,7 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import createRoutes from 'routes';
 import configureStore from 'store/configureStore';
 import preRenderMiddleware from 'middlewares/preRenderMiddleware';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 // Grab the state from a global injected into
 // server-generated HTML
@@ -35,7 +36,11 @@ function onUpdate() {
   preRenderMiddleware(store.dispatch, components, params);
 }
 
-
+//Needed for onTouchTap
+//Can go away when react 1.0 release
+//Check this repo:
+//https://github.com/zilverline/react-tap-event-plugin
+injectTapEventPlugin();
 // Router converts <Route> element hierarchy to a route config:
 // Read more https://github.com/rackt/react-router/blob/latest/docs/Glossary.md#routeconfig
 render(
