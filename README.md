@@ -50,7 +50,6 @@ https://gist.github.com/mathjoy/7968661d6199ffc4904aafcc0f3eff2d
 sudo yum install nodejs npm --enablerepo=epel
 
 ==instance:
-ssh -i "TsingyouNet.pem" ec2-user@ec2-54-67-0-79.us-west-1.compute.amazonaws.com
 
 ## Motivation
 
@@ -144,3 +143,16 @@ Best way to keep up to date is check the TsingYouNet.
 License
 ===============
 MIT
+
+http://iconof.com/blog/how-to-install-setup-node-js-on-amazon-aws-ec2-complete-guide/#installNode
+Install Node.js and NPM on your Amazon EC2 instance
+
+At last, it’s time to install Node.js on your Amazon Linux! We are going to install some required packages to compile Node and get Node from its Github repo. Type the following:
+sudo yum install gcc-c++ make
+sudo yum install openssl-devel
+sudo yum install git
+git clone git://github.com/nodejs/node.git
+cd node
+
+node js for redhat:
+curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -

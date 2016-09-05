@@ -14,7 +14,7 @@ import helmet from 'helmet';
 
 
 export default (app) => {
-  app.set('port', (process.env.PORT || 3000));
+  app.set('port', (process.env.PORT || 80));
 
   if (ENV === 'production') {
     app.use(gzip());
