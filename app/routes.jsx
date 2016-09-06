@@ -39,10 +39,10 @@ export default (store) => {
   };
   return (
     <Route path="/" component={App}>
-      <IndexRoute component={About} />
+      <IndexRoute component={MainInput} />
+      <Route path="about" component={MainInput} />
       <Route path="login" component={LoginOrRegister} onEnter={redirectAuth} />
       <Route path="home" component={Dashboard} onEnter={requireAuth} />
-      <Route path="about" component={MainInput} />
     </Route>
   );
 };
