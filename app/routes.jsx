@@ -6,7 +6,7 @@ import Vote from 'containers/Vote';
 import About from 'containers/About';
 import LoginOrRegister from 'containers/LoginOrRegister';
 import Dashboard from 'containers/Dashboard';
-import MainInout from 'containers/MainInput'
+import MainInput from 'containers/MainInput'
 
 /*
  * @param {Redux Store}

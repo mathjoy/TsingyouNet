@@ -8,7 +8,7 @@ import MenuItem from 'material-ui/MenuItem';
 import { FormsyCheckbox, FormsyDate, FormsyRadio, FormsyRadioGroup,
     FormsySelect, FormsyText, FormsyTime, FormsyToggle } from 'formsy-material-ui/lib';
 
-const Main = React.createClass({
+const MainInput = React.createClass({
 
   /**
    * As an alternative to `MuiThemeProvider` you can add a theme directly into context.
@@ -167,4 +167,4 @@ const Main = React.createClass({
   },
 });
 
-export default Main;
+export default MainInput;
