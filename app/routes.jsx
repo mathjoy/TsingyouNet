@@ -42,7 +42,7 @@ export default (store) => {
       <IndexRoute component={About} />
       <Route path="login" component={LoginOrRegister} onEnter={redirectAuth} />
       <Route path="home" component={Dashboard} onEnter={requireAuth} />
-      <Route path="about" component={MainInout} />
+      <Route path="about" component={MainInput} />
     </Route>
   );
 };
