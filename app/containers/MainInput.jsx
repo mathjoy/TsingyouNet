@@ -151,7 +151,7 @@ const MainInput = React.createClass({
                 value="ludicrous"
                 label="go to ludicrous speed"
                 style={switchStyle}
-                disabled={true}
+                disabled={false}
               />
             </FormsyRadioGroup>
             <RaisedButton
